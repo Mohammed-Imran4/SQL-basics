@@ -5,3 +5,6 @@ Basic-Functions are:
 Used to retrieve data from a table.
 SELECT name, age FROM students;
 
+2.WHERE Clause
+Filters rows based on a condition.
+SELECT * FROM employees WHERE salary > 50000;
