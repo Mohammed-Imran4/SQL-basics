@@ -30,3 +30,7 @@ b. SUM()
 Adds values of a column.
 SELECT SUM(salary) FROM employees;
 
+c. AVG()
+Finds average.
+SELECT AVG(marks) FROM exams;
+
