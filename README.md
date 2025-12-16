@@ -25,3 +25,8 @@ SELECT DISTINCT city FROM customers;
 a. COUNT()
 Counts number of rows.
 SELECT COUNT(*) FROM students;
+
+b. SUM()
+Adds values of a column.
+SELECT SUM(salary) FROM employees;
+
