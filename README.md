@@ -21,3 +21,7 @@ DISTINCT
 Removes duplicate values.
 SELECT DISTINCT city FROM customers;
 
+2. Aggregating Data
+a. COUNT()
+Counts number of rows.
+SELECT COUNT(*) FROM students;
