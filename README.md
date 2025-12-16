@@ -17,3 +17,7 @@ Aliasing (AS)
 Gives temporary name to column/table.
 SELECT salary AS employee_salary FROM workers;
 
+DISTINCT
+Removes duplicate values.
+SELECT DISTINCT city FROM customers;
+
