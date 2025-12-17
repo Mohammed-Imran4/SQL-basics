@@ -34,3 +34,9 @@ c. AVG()
 Finds average.
 SELECT AVG(marks) FROM exams;
 
+d. MIN() / MAX()
+
+Minimum / Maximum value.
+
+SELECT MAX(price) FROM products;
+SELECT MIN(price) FROM products;
