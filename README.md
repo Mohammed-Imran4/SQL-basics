@@ -35,8 +35,20 @@ Finds average.
 SELECT AVG(marks) FROM exams;
 
 d. MIN() / MAX()
-
 Minimum / Maximum value.
-
 SELECT MAX(price) FROM products;
 SELECT MIN(price) FROM products;
+
+e. GROUP BY
+Groups rows based on column.
+SELECT department, COUNT(*) 
+FROM employees 
+GROUP BY department;
+
+f.HAVING
+Filters groups (used after GROUP BY).
+
+SELECT department, AVG(salary)
+FROM employees
+GROUP BY department
+HAVING AVG(salary) > 40000;
