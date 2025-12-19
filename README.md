@@ -57,3 +57,6 @@ HAVING AVG(salary) > 40000;
 Adds new row.
 INSERT INTO students(name, age) VALUES ('Rahul', 20);
 
+* UPDATE
+Modifies existing data.
+UPDATE employees SET salary = 60000 WHERE id = 3;
