@@ -47,8 +47,13 @@ GROUP BY department;
 
 f.HAVING
 Filters groups (used after GROUP BY).
-
 SELECT department, AVG(salary)
 FROM employees
 GROUP BY department
 HAVING AVG(salary) > 40000;
+
+3. Data Modification (DML)
+* INSERT
+Adds new row.
+INSERT INTO students(name, age) VALUES ('Rahul', 20);
+
