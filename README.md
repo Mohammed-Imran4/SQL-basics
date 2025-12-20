@@ -73,3 +73,7 @@ TRUNCATE TABLE logs;
 *. Create Index
 Speeds up search.
 CREATE INDEX idx_name ON students(name);
+
+*. Drop Index
+DROP INDEX idx_name;
+
