@@ -60,3 +60,7 @@ INSERT INTO students(name, age) VALUES ('Rahul', 20);
 * UPDATE
 Modifies existing data.
 UPDATE employees SET salary = 60000 WHERE id = 3;
+
+* DELETE
+Removes rows.
+DELETE FROM orders WHERE order_id = 10;
