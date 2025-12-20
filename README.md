@@ -68,3 +68,8 @@ DELETE FROM orders WHERE order_id = 10;
 * TRUNCATE
 Deletes all rows (faster than DELETE).
 TRUNCATE TABLE logs;
+
+4. Indexing
+*. Create Index
+Speeds up search.
+CREATE INDEX idx_name ON students(name);
