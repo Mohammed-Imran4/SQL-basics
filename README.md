@@ -77,3 +77,7 @@ CREATE INDEX idx_name ON students(name);
 *. Drop Index
 DROP INDEX idx_name;
 
+*. Composite Index
+Multiple columns.
+
+CREATE INDEX idx_stu ON students(name, age);
