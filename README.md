@@ -81,3 +81,8 @@ DROP INDEX idx_name;
 Multiple columns.
 
 CREATE INDEX idx_stu ON students(name, age);
+
+*. Unique Index
+Values cannot repeat.
+
+CREATE UNIQUE INDEX idx_email ON users(email);
