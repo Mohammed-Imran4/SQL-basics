@@ -89,3 +89,7 @@ CREATE UNIQUE INDEX idx_email ON users(email);
 a. CAST
 Converts datatype.
 SELECT CAST(price AS INT) FROM products;
+
+b.TO_NUMBER / TO_CHAR
+Oracle/MySQL string conversions.
+SELECT TO_CHAR(salary) FROM employees;
