@@ -79,10 +79,13 @@ DROP INDEX idx_name;
 
 *. Composite Index
 Multiple columns.
-
 CREATE INDEX idx_stu ON students(name, age);
 
 *. Unique Index
 Values cannot repeat.
-
 CREATE UNIQUE INDEX idx_email ON users(email);
+
+5. Conversion Functions
+a. CAST
+Converts datatype.
+SELECT CAST(price AS INT) FROM products;
