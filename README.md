@@ -97,3 +97,8 @@ SELECT TO_CHAR(salary) FROM employees;
 c. COALESCE
 Returns first non-null value.
 SELECT COALESCE(middle_name, 'Not Available') FROM users;
+
+6. Filtering Data
+*. BETWEEN
+Range filter.
+SELECT * FROM items WHERE price BETWEEN 100 AND 500;
