@@ -107,3 +107,8 @@ SELECT * FROM items WHERE price BETWEEN 100 AND 500;
 Pattern matching.
 SELECT * FROM students WHERE name LIKE 'A%';
 
+. IN
+Multiple values.
+SELECT * FROM employees WHERE department IN ('HR', 'Sales');
+
+
