@@ -102,3 +102,8 @@ SELECT COALESCE(middle_name, 'Not Available') FROM users;
 *. BETWEEN
 Range filter.
 SELECT * FROM items WHERE price BETWEEN 100 AND 500;
+
+*. LIKE
+Pattern matching.
+SELECT * FROM students WHERE name LIKE 'A%';
+
