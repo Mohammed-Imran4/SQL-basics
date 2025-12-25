@@ -114,3 +114,7 @@ SELECT * FROM employees WHERE department IN ('HR', 'Sales');
 *. AND / OR / NOT
 SELECT * FROM products 
 WHERE price < 500 AND category = 'Mobile';
+
+7. Sorting and Limiting
+a. ORDER BY
+SELECT * FROM students ORDER BY marks DESC;
