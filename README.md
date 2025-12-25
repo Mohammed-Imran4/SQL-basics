@@ -111,4 +111,6 @@ SELECT * FROM students WHERE name LIKE 'A%';
 Multiple values.
 SELECT * FROM employees WHERE department IN ('HR', 'Sales');
 
-
+*. AND / OR / NOT
+SELECT * FROM products 
+WHERE price < 500 AND category = 'Mobile';
