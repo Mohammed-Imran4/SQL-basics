@@ -118,3 +118,7 @@ WHERE price < 500 AND category = 'Mobile';
 7. Sorting and Limiting
 a. ORDER BY
 SELECT * FROM students ORDER BY marks DESC;
+
+b. LIMIT (MySQL)
+SELECT * FROM books LIMIT 5;
+
