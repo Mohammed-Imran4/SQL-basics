@@ -124,3 +124,11 @@ SELECT * FROM books LIMIT 5;
 
 c.OFFSET
 SELECT * FROM books LIMIT 5 OFFSET 10;
+
+8. Set Operations
+*. UNION
+Merge results – removes duplicates.
+
+SELECT city FROM customers
+UNION
+SELECT city FROM suppliers;
