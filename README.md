@@ -132,3 +132,10 @@ Merge results – removes duplicates.
 SELECT city FROM customers
 UNION
 SELECT city FROM suppliers;
+
+*. UNION ALL
+Includes duplicates.
+
+SELECT city FROM customers
+UNION ALL
+SELECT city FROM suppliers;
