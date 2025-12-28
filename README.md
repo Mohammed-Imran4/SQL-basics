@@ -139,3 +139,10 @@ Includes duplicates.
 SELECT city FROM customers
 UNION ALL
 SELECT city FROM suppliers;
+
+*. INTERSECT
+Common rows.
+
+SELECT id FROM table1
+INTERSECT
+SELECT id FROM table2;
