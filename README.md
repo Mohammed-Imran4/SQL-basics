@@ -146,3 +146,7 @@ Common rows.
 SELECT id FROM table1
 INTERSECT
 SELECT id FROM table2;
+
+*. EXCEPT / MINUS
+
+Returns rows in first table but not second.
