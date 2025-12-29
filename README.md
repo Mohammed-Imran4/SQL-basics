@@ -148,5 +148,12 @@ INTERSECT
 SELECT id FROM table2;
 
 *. EXCEPT / MINUS
-
 Returns rows in first table but not second.
+
+9. Joins
+a. INNER JOIN
+Matching rows only.
+
+SELECT students.name, marks.score
+FROM students
+INNER JOIN marks ON students.id = marks.student_id;
