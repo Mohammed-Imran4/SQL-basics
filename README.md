@@ -157,3 +157,8 @@ Matching rows only.
 SELECT students.name, marks.score
 FROM students
 INNER JOIN marks ON students.id = marks.student_id;
+
+b. LEFT JOIN
+All left + matching right.
+SELECT * FROM students s
+LEFT JOIN marks m ON s.id = m.student_id;
