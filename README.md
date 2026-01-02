@@ -162,3 +162,6 @@ b. LEFT JOIN
 All left + matching right.
 SELECT * FROM students s
 LEFT JOIN marks m ON s.id = m.student_id;
+
+3. RIGHT JOIN
+All right + matching left.
