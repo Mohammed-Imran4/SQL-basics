@@ -163,5 +163,8 @@ All left + matching right.
 SELECT * FROM students s
 LEFT JOIN marks m ON s.id = m.student_id;
 
-3. RIGHT JOIN
+c. RIGHT JOIN
 All right + matching left.
+
+d. FULL JOIN
+All data from both sides.
