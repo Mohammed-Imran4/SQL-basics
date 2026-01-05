@@ -168,3 +168,6 @@ All right + matching left.
 
 d. FULL JOIN
 All data from both sides.
+
+e. Self Join
+Table joined with itself.
