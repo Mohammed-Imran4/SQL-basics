@@ -171,3 +171,6 @@ All data from both sides.
 
 e. Self Join
 Table joined with itself.
+
+f. Cross Join
+Every row × every row.
