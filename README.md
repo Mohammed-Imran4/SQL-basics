@@ -174,3 +174,10 @@ Table joined with itself.
 
 f. Cross Join
 Every row × every row.
+
+10. String Functions
+Examples:
+
+SELECT CONCAT(first_name, ' ', last_name) FROM users;
+SELECT SUBSTRING(name, 1, 3) FROM students;
+
