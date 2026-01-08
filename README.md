@@ -180,4 +180,7 @@ Examples:
 
 SELECT CONCAT(first_name, ' ', last_name) FROM users;
 SELECT SUBSTRING(name, 1, 3) FROM students;
-
+SELECT LENGTH(name) FROM students;
+SELECT UPPER(name) FROM students;
+SELECT TRIM('   Hello   ');
+SELECT REPLACE(name, 'a', '@') FROM users;
