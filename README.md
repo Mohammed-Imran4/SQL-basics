@@ -184,3 +184,8 @@ SELECT LENGTH(name) FROM students;
 SELECT UPPER(name) FROM students;
 SELECT TRIM('   Hello   ');
 SELECT REPLACE(name, 'a', '@') FROM users;
+
+11. Null Handling
+
+SELECT ISNULL(address, 'No Address') FROM customers;
+SELECT COALESCE(phone, 'N/A') FROM users;
