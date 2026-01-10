@@ -189,3 +189,13 @@ SELECT REPLACE(name, 'a', '@') FROM users;
 
 SELECT ISNULL(address, 'No Address') FROM customers;
 SELECT COALESCE(phone, 'N/A') FROM users;
+
+12. Conditional Functions
+CASE
+SELECT name,
+CASE 
+  WHEN marks > 90 THEN 'A'
+  WHEN marks > 70 THEN 'B'
+  ELSE 'C'
+END AS grade
+FROM students;
