@@ -209,3 +209,4 @@ SELECT DATEDIFF(day, '2024-01-01', '2025-01-01');
 SELECT EXTRACT(year FROM CURRENT_DATE);
 
 14. Subqueries Inline Subquery
+SELECT name FROM students
