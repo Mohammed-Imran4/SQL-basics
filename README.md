@@ -211,3 +211,7 @@ SELECT EXTRACT(year FROM CURRENT_DATE);
 14. Subqueries Inline Subquery
 SELECT name FROM students
 WHERE marks > (SELECT AVG(marks) FROM students);
+
+a.EXISTS
+SELECT name FROM students s
+
