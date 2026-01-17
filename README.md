@@ -214,4 +214,4 @@ WHERE marks > (SELECT AVG(marks) FROM students);
 
 a.EXISTS
 SELECT name FROM students s
-
+WHERE marks > (SELECT AVG(marks) FROM students);
