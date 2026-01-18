@@ -215,3 +215,6 @@ WHERE marks > (SELECT AVG(marks) FROM students);
 a.EXISTS
 SELECT name FROM students s
 WHERE marks > (SELECT AVG(marks) FROM students);
+
+15. Window Functions
+SELECT name, salary,
