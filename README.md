@@ -218,3 +218,5 @@ WHERE marks > (SELECT AVG(marks) FROM students);
 
 15. Window Functions
 SELECT name, salary,
+ROW_NUMBER() OVER (ORDER BY salary DESC) AS rank_no
+FROM employees;
