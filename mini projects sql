@@ -10,3 +10,11 @@ CREATE TABLE students (
     city VARCHAR(50)
 );
 
+TABLE 2: courses
+CREATE TABLE courses (
+    id INT PRIMARY KEY,
+    course_name VARCHAR(50),
+    fees INT
+);
+
+
