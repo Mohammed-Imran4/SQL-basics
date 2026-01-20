@@ -1,3 +1,12 @@
 1. CREATE DATABASE & TABLES
 CREATE DATABASE school_system;
 USE school_system;
+
+TABLE 1: students
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    age INT,
+    city VARCHAR(50)
+);
+
