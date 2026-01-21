@@ -16,5 +16,11 @@ CREATE TABLE courses (
     course_name VARCHAR(50),
     fees INT
 );
+TABLE 3: enrollments
+CREATE TABLE enrollments (
+    id INT PRIMARY KEY,
+    student_id INT,
+    course_id INT,
+    marks INT,
 
 
