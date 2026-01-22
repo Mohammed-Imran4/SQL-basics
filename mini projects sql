@@ -25,6 +25,12 @@ CREATE TABLE enrollments (
 FOREIGN KEY (student_id) REFERENCES students(id),
     FOREIGN KEY (course_id) REFERENCES courses(id)
 );
-
+TABLE 4: products
+CREATE TABLE products (
+    id INT PRIMARY KEY,
+    name VARCHAR(50),
+    category VARCHAR(50),
+    price INT
+);
 
 
