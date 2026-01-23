@@ -32,5 +32,8 @@ CREATE TABLE products (
     category VARCHAR(50),
     price INT
 );
-
+TABLE 5: sales
+CREATE TABLE sales (
+    id INT PRIMARY KEY,
+    product_id INT,
 
