@@ -36,4 +36,8 @@ TABLE 5: sales
 CREATE TABLE sales (
     id INT PRIMARY KEY,
     product_id INT,
+    quantity INT,
+    sale_date DATE,
+    FOREIGN KEY (product_id) REFERENCES products(id)
+);
 
