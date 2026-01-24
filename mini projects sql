@@ -41,3 +41,11 @@ CREATE TABLE sales (
     FOREIGN KEY (product_id) REFERENCES products(id)
 );
 
+2. Insert Sample Data
+students
+INSERT INTO students VALUES
+(1, 'Rahul', 20, 'Delhi'),
+(2, 'Sneha', 21, 'Mumbai'),
+(3, 'Arjun', 22, 'Kolkata'),
+(4, 'Meera', 20, 'Delhi');
+
