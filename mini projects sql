@@ -49,3 +49,8 @@ INSERT INTO students VALUES
 (3, 'Arjun', 22, 'Kolkata'),
 (4, 'Meera', 20, 'Delhi');
 
+courses
+INSERT INTO courses VALUES
+(1, 'Python', 5000),
+(2, 'SQL', 4000),
+(3, 'Java', 6000);
