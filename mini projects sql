@@ -54,3 +54,13 @@ INSERT INTO courses VALUES
 (1, 'Python', 5000),
 (2, 'SQL', 4000),
 (3, 'Java', 6000);
+
+enrollments
+INSERT INTO enrollments VALUES
+(1, 1, 1, 90),
+(2, 1, 2, 75),
+(3, 2, 1, 88),
+(4, 3, 3, 60),
+(5, 4, 2, 95);
+
+
