@@ -75,3 +75,5 @@ INSERT INTO sales VALUES
 (2, 2, 10, '2024-01-12'),
 (3, 3, 5, '2024-01-15');
 
+3. Basic SQL
+1. SELECT + WHERE
