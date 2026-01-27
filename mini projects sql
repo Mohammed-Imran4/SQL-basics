@@ -63,4 +63,8 @@ INSERT INTO enrollments VALUES
 (4, 3, 3, 60),
 (5, 4, 2, 95);
 
-
+products
+INSERT INTO products VALUES
+(1, 'Laptop', 'Electronics', 50000),
+(2, 'Mouse', 'Electronics', 500),
+(3, 'Chair', 'Furniture', 2000);
