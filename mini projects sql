@@ -72,3 +72,6 @@ INSERT INTO products VALUES
 sales
 INSERT INTO sales VALUES
 (1, 1, 2, '2024-01-10'),
+(2, 2, 10, '2024-01-12'),
+(3, 3, 5, '2024-01-15');
+
