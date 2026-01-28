@@ -78,3 +78,6 @@ INSERT INTO sales VALUES
 3. Basic SQL
 1. SELECT + WHERE
 SELECT * FROM students WHERE city = 'Delhi';
+
+2. DISTINCT
+SELECT DISTINCT city FROM students;
