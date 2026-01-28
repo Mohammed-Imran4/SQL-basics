@@ -77,3 +77,4 @@ INSERT INTO sales VALUES
 
 3. Basic SQL
 1. SELECT + WHERE
+SELECT * FROM students WHERE city = 'Delhi';
