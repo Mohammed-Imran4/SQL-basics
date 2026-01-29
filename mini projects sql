@@ -84,3 +84,6 @@ SELECT DISTINCT city FROM students;
 
 3. ORDER BY
 SELECT * FROM students ORDER BY age DESC;
+
+4. LIMIT
+SELECT * FROM students LIMIT 2;
