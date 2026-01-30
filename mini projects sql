@@ -87,3 +87,8 @@ SELECT * FROM students ORDER BY age DESC;
 
 4. LIMIT
 SELECT * FROM students LIMIT 2;
+
+4. Joins
+INNER JOIN
+SELECT s.name, c.course_name, e.marks
+FROM enrollments e
