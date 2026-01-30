@@ -94,3 +94,8 @@ SELECT s.name, c.course_name, e.marks
 FROM enrollments e
 INNER JOIN students s ON e.student_id = s.id
 INNER JOIN courses c ON e.course_id = c.id;
+
+LEFT JOIN
+SELECT s.name, e.marks
+FROM students s
+LEFT JOIN enrollments e ON s.id = e.student_id;
