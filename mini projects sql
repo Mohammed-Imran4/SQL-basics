@@ -95,12 +95,14 @@ FROM enrollments e
 INNER JOIN students s ON e.student_id = s.id
 INNER JOIN courses c ON e.course_id = c.id;
 
-5. Grouping & Aggregation
-Average marks per course
-SELECT c.course_name, AVG(e.marks) AS avg_marks
-
-
 LEFT JOIN
 SELECT s.name, e.marks
 FROM students s
 LEFT JOIN enrollments e ON s.id = e.student_id;
+
+5. Grouping & Aggregation
+Average marks per course
+SELECT c.course_name, AVG(e.marks) AS avg_marks
+FROM enrollments e
+JOIN courses c ON e.course_id = c.id
+GROUP BY c.course_name;
