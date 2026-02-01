@@ -106,3 +106,7 @@ SELECT c.course_name, AVG(e.marks) AS avg_marks
 FROM enrollments e
 JOIN courses c ON e.course_id = c.id
 GROUP BY c.course_name;
+
+HAVING (filter groups)
+SELECT c.course_name, AVG(e.marks) AS avg_marks
+FROM enrollments e
