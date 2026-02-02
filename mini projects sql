@@ -113,3 +113,9 @@ FROM enrollments e
 JOIN courses c ON e.course_id = c.id
 GROUP BY c.course_name
 HAVING AVG(e.marks) > 80;
+
+6. String Functions
+SELECT UPPER(name) AS upper_name,
+       LENGTH(name) AS name_length
+FROM students;
+
