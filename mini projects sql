@@ -119,3 +119,5 @@ SELECT UPPER(name) AS upper_name,
        LENGTH(name) AS name_length
 FROM students;
 
+7. Date Functions
+SELECT sale_date,
