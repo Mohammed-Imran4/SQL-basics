@@ -121,3 +121,5 @@ FROM students;
 
 7. Date Functions
 SELECT sale_date,
+      EXTRACT(MONTH FROM sale_date) AS sale_month
+FROM sales;
