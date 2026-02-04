@@ -123,3 +123,5 @@ FROM students;
 SELECT sale_date,
       EXTRACT(MONTH FROM sale_date) AS sale_month
 FROM sales;
+
+SELECT DATEDIFF(CURDATE(), sale_date) FROM sales;
