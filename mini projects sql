@@ -125,3 +125,8 @@ SELECT sale_date,
 FROM sales;
 
 SELECT DATEDIFF(CURDATE(), sale_date) FROM sales;
+
+8. Subqueries
+Students scoring above average
+SELECT name FROM students
+WHERE id IN (
