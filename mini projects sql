@@ -133,3 +133,7 @@ WHERE id IN (SELECT student_id FROM enrollments
     WHERE marks > (SELECT AVG(marks) FROM enrollments)
 );
 EXISTS
+SELECT name FROM students s
+WHERE EXISTS (
+    SELECT 1 FROM enrollments e WHERE e.student_id = s.id
+);
