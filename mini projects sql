@@ -137,3 +137,9 @@ SELECT name FROM students s
 WHERE EXISTS (
     SELECT 1 FROM enrollments e WHERE e.student_id = s.id
 );
+9. Window Functions
+Rank students by marks
+SELECT s.name, e.marks,
+       RANK() OVER (ORDER BY e.marks DESC) AS rank_no
+FROM enrollments e
+JOIN students s ON e.student_id = s.id;
