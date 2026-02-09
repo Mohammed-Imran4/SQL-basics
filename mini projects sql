@@ -143,3 +143,12 @@ SELECT s.name, e.marks,
        RANK() OVER (ORDER BY e.marks DESC) AS rank_no
 FROM enrollments e
 JOIN students s ON e.student_id = s.id;
+
+10. Set Operations
+Cities of students or customers
+
+(Example assuming customers table)
+
+SELECT city FROM students
+UNION
+SELECT city FROM customers;
