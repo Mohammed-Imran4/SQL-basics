@@ -148,6 +148,10 @@ JOIN students s ON e.student_id = s.id;
 Cities of students or customers
 
 (Example assuming customers table)
+SELECT city FROM students
+UNION
+SELECT city FROM customers;
+
 
 SELECT city FROM students
 UNION
