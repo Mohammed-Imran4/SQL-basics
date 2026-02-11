@@ -152,7 +152,9 @@ SELECT city FROM students
 UNION
 SELECT city FROM customers;
 
-
-SELECT city FROM students
-UNION
-SELECT city FROM customers;
+11. Case When (Conditional)
+SELECT name, marks,
+CASE 
+    WHEN marks >= 90 THEN 'A'
+    WHEN marks >= 75 THEN 'B'
+    ELSE 'C'
