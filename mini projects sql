@@ -158,3 +158,6 @@ CASE
     WHEN marks >= 90 THEN 'A'
     WHEN marks >= 75 THEN 'B'
     ELSE 'C'
+END AS grade
+FROM enrollments e
+JOIN students s ON e.student_id = s.id;
