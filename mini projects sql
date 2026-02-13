@@ -161,3 +161,6 @@ CASE
 END AS grade
 FROM enrollments e
 JOIN students s ON e.student_id = s.id;
+
+12. Indexes
+CREATE INDEX idx_student_city ON students(city);
