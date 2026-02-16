@@ -164,3 +164,7 @@ JOIN students s ON e.student_id = s.id;
 
 12. Indexes
 CREATE INDEX idx_student_city ON students(city);
+
+13. Data Modification
+Update
+UPDATE students SET city = 'Bangalore' WHERE id = 2;
