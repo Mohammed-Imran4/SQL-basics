@@ -171,3 +171,6 @@ UPDATE students SET city = 'Bangalore' WHERE id = 2;
 
 Delete
 DELETE FROM students WHERE id = 4;
+
+Truncate
+TRUNCATE TABLE sales;
