@@ -168,3 +168,6 @@ CREATE INDEX idx_student_city ON students(city);
 13. Data Modification
 Update
 UPDATE students SET city = 'Bangalore' WHERE id = 2;
+
+Delete
+DELETE FROM students WHERE id = 4;
